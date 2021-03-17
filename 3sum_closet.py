@@ -15,7 +15,7 @@ class Solution:
             dif=add-target
             sums.append(add)
             difference.append(abs(dif))
-            if difference is 0:
+            if difference == 0:
                 return target
         posi=difference.index(min(difference))
         return sums[posi]
