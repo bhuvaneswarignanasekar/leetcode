@@ -5,7 +5,7 @@ Created on Thu Mar 25 19:02:31 2021
 @author: bhuvana
 """
 class Solution:
-    def getRow(self, rowIndex: int) -> List[int]:
+    def getRow(self, rowIndex: int) -> list[int]:
         res_row=[]
         res_row.append([1])
         c=1
